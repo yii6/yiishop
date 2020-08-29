@@ -1,0 +1,271 @@
+/*公共样式*/
+
+.inline {
+    display: inline-block;
+}
+a {
+    color: #5C5C5C;
+}
+a:hover, a:focus {
+    color: #1E90FF;
+}
+.clear {
+    /*清除空白盒子的浮动*/
+    clear: both;
+}
+/*layout*/
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 150px;
+    font-family: "微软雅黑" !important;
+}
+.container {
+    padding: 0 1px;
+}
+.red {
+    color: red;
+}
+.top-menu span {
+    padding: 8px 5px;
+}
+.top-menu {
+    background-color: #f2f2f2;
+}
+.red span {
+    padding-right: 0;
+}
+.input-box {
+    width: 75%;
+    height: 32px;
+    margin: 0;
+    padding-top: 0;
+    border: 2px solid red;
+}
+.shopping-cart {
+    padding: 7px 0;
+}
+.search-box, .shopping-cart {
+    margin-top: 28px;
+    margin-left: 4%;
+}
+.bubble {
+    border-radius: 7px 7px 7px 0;
+    padding: 0 5px;
+    position: absolute;
+    top: -8px;
+}
+nav.navbar {
+    /*标题导航*/
+    margin-bottom: 0;
+    border-radius: 0;
+    min-height: 30px;
+    border-bottom: 2px solid red;
+}
+li.left-menu {
+    padding: 13px 0;
+}
+ul.nav.navbar-nav>li>a, ul.dropdown-menu a {
+    padding: 13px 0;
+}
+@media (max-width: 1825px) {
+    ul.dropdown-menu a {
+        padding: 11px 0;
+    }
+}
+@media (max-width: 1730px) {
+    ul.dropdown-menu a {
+        padding: 10px 0;
+    }
+}
+@media (max-width: 1635px) {
+    ul.dropdown-menu a {
+        padding: 9px 0;
+    }
+}
+@media (max-width: 1540px) {
+    ul.dropdown-menu a {
+        padding: 8px 0;
+    }
+}
+@media (max-width: 1445px) {
+    ul.dropdown-menu a {
+        padding: 7px 0;
+    }
+}
+@media (max-width: 1350px) {
+    ul.dropdown-menu a {
+        padding: 5px 0;
+    }
+}
+@media (max-width: 1160px) {
+    ul.dropdown-menu a {
+        padding: 3px 0;
+    }
+}
+@media (max-width: 970px) {
+    ul.dropdown-menu a {
+        padding: 1px 0;
+    }
+}
+ul.nav.navbar-nav a.btn {
+    padding: 5px 3px;
+}
+.nav.navbar-nav {
+    width: 100%;
+    /*在屏幕<768的时候会有margin影响布局*/
+    margin: 0;
+}
+ul.nav.navbar-nav>li {
+    width: 20%;
+    min-width: 20px;
+    list-style: none;
+    float: left;
+}
+ul.dropdown-menu {
+    min-width: 100px;
+    width: 100%;
+    padding: 0;
+}
+.nav.navbar-nav .right-menu {
+    width: 17%;
+}
+.right-menu li {
+    padding-top: 8px;
+}
+@media (max-width: 1350px) {
+    .right-menu li {
+        padding-top: 0;
+    }
+}
+.footer .dropdown:hover .dropdown-menu, .dropdown-submenu:hover .dropdown-menu, .dropdown-menu.block, li.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+}
+.index-news span {
+    font-size: 17px;
+    padding: 0 6px;
+}
+.index-news {
+    border-bottom: 1px dotted;
+    padding-bottom: 6px;
+}
+.bottom-box {
+    width: 100%;
+    background-color: #EAEAEA;
+    margin-top: 20px;
+}
+.bottom-box span {
+    font-size: 18px;
+}
+.bottom-box img {
+    padding: 20px 0;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer .dropdown>img {
+    width: 80px;
+    padding: 4px 22px;
+}
+footer a>img {
+    width: 100%;
+}
+.dropup .dropdown-menu {
+    margin-bottom: 0 !important;
+}
+@media (max-width: 992px) {
+    .hide9 {
+        display: none;
+    }
+}
+/*首页*/
+
+.band-box {
+    border-top: 2px solid red;
+    border-left: 2px solid red;
+    border-bottom: 2px solid red;
+}
+.band-box .col-lg-9 {
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+}
+.product-box
+/*新闻资讯*/
+
+.post img {
+    width: 100%;
+}
+.post-nav-list li {
+    border-bottom: #9692a0 solid 1px;
+    list-style: none;
+    padding: 5px 0;
+    font-size: 18px;
+}
+.lightword {
+    color: #00BFFF;
+}
+/*产品列表*/
+
+.product img {
+    width: 100%;
+}
+.text_box {
+    width: 50px;
+}
+.info-box>table {
+    margin: auto;
+}
+.info-box td {
+    padding: 6px;
+}
+.info-box .border td, .info-box>table, .shopping-cart, .cart-box .border, .order-box .border {
+    border: 1px solid #dedede;
+}
+.info-box .border {
+    margin: 6px 0 0 8px;
+}
+/*我的购物车*/
+
+.cart-box, .cart-op, .order-box {
+    width: 100%;
+}
+.cart-box img, .order-box img {
+    width: 100px;
+}
+.empty-cart {
+    width: 25%;
+    margin: auto;
+}
+/*我的订单*/
+
+.order-box table {
+    width: 100%;
+}
+.order-box table .goods {
+    width: 70%;
+}
+.order-box table .amount {
+    width: 10%;
+}
+.order-box table .sale {
+    width: 20%;
+}
+/*企业简介*/
+
+.com-intro span {
+    font-size: 18px;
+}
+@media (max-width: 992px) {
+    .com-intro span {
+        font-size: 16px;
+    }
+}

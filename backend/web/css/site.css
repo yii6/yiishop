@@ -1,0 +1,46 @@
+/*登录界面*/
+
+.site-login {
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 33%;
+}
+.site-login .input {
+    width: 50%;
+    margin-left: 25%;
+}
+.site-login .btn {
+    width: 100%;
+}
+/*公共样式*/
+.inline {
+    display: inline-block;
+}
+li{
+	list-style:none;
+	color: #333;
+}
+/*页面*/
+.navbar-head h4 {
+    width: 30%
+}
+.navbar-body > li{
+	padding-top:  4rem;
+	margin-left: 1rem;
+	font-size: 1.8rem;
+	border-bottom: white solid 0.4rem;
+}
+.navbar-body  a{
+	color: #333;
+}
+.dropdown-list li{
+	font-size: 1.4rem;
+	padding:  2.2rem 0;
+	border-top: white solid 0.4rem;
+}
+.dropdown-list ul{
+	display: none;
+}
+.navbar-body{
+	background-color:#F7F7F7;
+}

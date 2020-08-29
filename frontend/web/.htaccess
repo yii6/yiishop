@@ -1,0 +1,9 @@
+RewriteEngine on
+
+#如果是一个目录或者文件，就访问目录或文件,不进行下面的RewriteRule
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule . index.php
+
+
