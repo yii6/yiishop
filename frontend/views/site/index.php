@@ -1,7 +1,7 @@
 <?php
 use common\models\Posts;
 use yii\helpers\Url;
-$this->title              = '轴承汇 | 全球知名轴承交易平台';
+$this->title              = '商品汇 | 全球知名商品交易平台';
 $data['SKF']['website'] = 'www.86skf.cn';
 $data['FAG']['website'] = 'www.86fag.com.cn';
 $data['NSK']['website'] = 'www.nskgo.com';

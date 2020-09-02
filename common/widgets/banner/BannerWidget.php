@@ -12,11 +12,11 @@ class BannerWidget extends Widget
         if (empty($this->items)) {
             $this->items = [
                 [
-                    'label'  => '轴承汇', 'image_url' => 'http://yii6.com/shop_slide1',
+                    'label'  => '商品汇', 'image_url' => 'http://yii6.com/shop_slide1',
                     'active' => 'active',
                 ],
                 ['label' => '狗年吉祥', 'image_url' => 'http://yii6.com/shop_slide4.jpg'],
-                ['label' => '轴承一站式采购平台', 'image_url' => 'http://yii6.com/shop_slide_1'],
+                ['label' => '商品一站式采购平台', 'image_url' => 'http://yii6.com/shop_slide_1'],
             ];
         }
     }

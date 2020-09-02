@@ -19,8 +19,8 @@ AppAsset::register($this);
    <?php
 $this->registerMetaTag(['http-equiv' => "X-UA-Compatible", 'content' => "IE=edge"]);
 $this->registerMetaTag(['name' => "viewport", 'content' => "width=device-width, initial-scale=1"]);
-$this->registerMetaTag(['name' => "keywords", 'content' => "NSK轴承商城；FAG轴承商城；SKF轴承商城"]);
-$this->registerMetaTag(['name' => "description", 'content' => "买轴承，到轴承汇！汇聚全球知名轴承品牌的交易平台，打造国内专业的轴承采购平台。"]);?>
+$this->registerMetaTag(['name' => "keywords", 'content' => "NSK商品商城；FAG商品商城；SKF商品商城"]);
+$this->registerMetaTag(['name' => "description", 'content' => "买商品，到商品汇！汇聚全球知名商品品牌的交易平台，打造国内专业的商品采购平台。"]);?>
     <?=Html::csrfMetaTags()?>
     <link type="image/x-icon" href="http://yii6.com/skf_ico" rel="shortcut icon">
     <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
@@ -36,7 +36,7 @@ $this->registerMetaTag(['name' => "description", 'content' => "买轴承，到�
 $this->beginBody()?>
 <div class="top-menu">
     <div class="container">
-        <span class="inline">欢迎光临轴承汇商城！</span>
+        <span class="inline">欢迎光临商品汇商城！</span>
     <div class="pull-right inline">
 <?php if (Yii::$app->user->isGuest) {?>
         <span><a href="<?=Url::to(['site/login'])?>">请登录</a></span>
@@ -46,13 +46,13 @@ $this->beginBody()?>
         <span><a href="<?=Url::to(['site/logout'])?>">退出</a></span>
         <span><a href="<?=Url::to(['order/index'])?>">我的订单</a></span>
 <?php }?>
-        <div class="red inline"><span class="glyphicon glyphicon-earphone"></span><span>0510-88230446</span></div>
+        <div class="red inline"><span class="glyphicon glyphicon-earphone"></span><span>8888-12345678</span></div>
     </div>
     </div>
 </div>
 <div class="container">
     <div class="col-lg-3 col-md-3 col-sm-3 col-mx-3">
-        <img src="http://yii6.com/shop_logo" alt="轴承汇">
+        <img src="http://yii6.com/shop_logo" alt="商品汇">
     </div>
     <div class="col-lg-5 col-md-5 col-sm-5 col-mx-5 search-box">
         <form action="product/search" method="get" class="form-inline">
@@ -138,24 +138,24 @@ foreach ($list as $key => $value) {?>
 <table class="nav navbar-nav text-center">
     <tr>
     <td class="dropdown">
-        &copy; <?=Html::encode('无锡凯恩瑞动力机械有限公司')?> <?=date('Y')?>
+        &copy; <?=Html::encode('银河吕布貂蝉无限公司')?> <?=date('Y')?>
     </td>
     <td class="dropdown">
-        <a href="http://www.miitbeian.gov.cn" target="_blank">苏ICP备12032149号-1</a>
+        <a href="http://www.miitbeian.gov.cn" target="_blank">鄂ICP备18003564号</a>
     </td>
     <td class="dropdown hide9">
-        地址：无锡市锡山区五洲国际工业博览城
+        地址：银河A区地球村中国路
     </td>
     <td class="dropdown hide9">
-        联系人：宁经理
+        联系人：吕经理
     </td>
     <td class="dropdown">
-        手机：18961769944
+        手机：15827167113
     </td>
     <td class="dropdown dropup">
         <img src="http://yii6.com/wx.jpg2" alt="微信图标">
         <ul class="dropdown-menu" role="menu">
-        <li><img src="http://yii6.com/knr_wx" alt="无锡凯恩瑞动力机械有限公司微信"></li>
+        <li><img src="http://yii6.com/knr_wx" alt="银河吕布貂蝉无限公司微信"></li>
         </ul>
     </td>
     <td class="dropdown dropup">

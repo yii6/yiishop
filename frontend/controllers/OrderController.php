@@ -115,7 +115,7 @@ class OrderController extends Controller
             $model->order_ids    = json_encode($orders);
             $model->out_trade_no = $out_trade_no;
             $model->save();
-            $subject = '轴承汇-合并付款 | ' . $k . '笔订单';
+            $subject = '商品汇-合并付款 | ' . $k . '笔订单';
             return $this->redirect(['pagepay/pagepay', 'subject' => $subject, 'total_amount' => $total_amount, 'out_trade_no' => $out_trade_no, 'body' => implode("、", $body)]);
         }
     }

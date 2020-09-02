@@ -102,7 +102,7 @@ $(function() {
                 <td>
                     <table>
                         <tr>
-                            <td>咨询热线：<span class="red"><b>0510-88230446</b></span></td>
+                            <td>咨询热线：<span class="red"><b>8888-12345678</b></span></td>
                         </tr>
                     </table>
                 </td>
@@ -111,7 +111,7 @@ $(function() {
                 <td>
                     <table class="text-center">
                         <tr>
-                            <td><img src="http://on3t83q3n.bkt.clouddn.com/knr_wx" alt="无锡凯恩瑞动力机械有限公司微信"></td>
+                            <td><img src="http://on3t83q3n.bkt.clouddn.com/knr_wx" alt="银河吕布貂蝉无限公司微信"></td>
                         </tr>
                         <tr>
                             <td>扫一扫添加<br>微信咨询</td>

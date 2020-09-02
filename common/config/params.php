@@ -4,5 +4,5 @@ return [
     'supportEmail' => 'sp@yuwuy.com',
     'user.passwordResetTokenExpire' => 3600,
     'suffix'=>'',
-    'bandName'=>'轴承汇',
+    'bandName'=>'商品汇',
 ];

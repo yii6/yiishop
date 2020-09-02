@@ -1,6 +1,6 @@
 <?php
 use yii\helpers\Html;
-$this->title='添加新轴承';
+$this->title='添加新商品';
 $this->params['breadcrumbs'][]=['label'=>'产品','url'=>['product/index']];
 $this->params['breadcrumbs'][]=$this->title;
 ?>
